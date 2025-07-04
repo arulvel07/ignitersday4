@@ -20,7 +20,7 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
  `admin.html` - Static table of bookings and check-in status 
 
 ## StyleSheet
- `style.css` - Styling for all pages (minimal) 
+ `style.css` - Styling for all pages
 
 
 ## Progess
