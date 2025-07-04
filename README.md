@@ -19,6 +19,7 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
 
  `admin.html` - Static table of bookings and check-in status 
 
+## StyleSheet
  `style.css` - Styling for all pages (minimal) 
 
 
@@ -26,4 +27,21 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
     - Added the structure of all the webpages using only html
     - designed them with css (format/colours/animations/videos/photos)
     - Only front is developed, since im not familiar with backend at this 
-    - Organised college logo and video in a seperate folder named Assets
+    - Organised college logo and video in a seperate folder named '/Assets'
+
+
+## Folder Structure
+```
+.
+├── index.html
+├── student.html
+├── admin.html
+├── style.css
+└── assets/
+    ├── logo.png
+    └── video.mp4
+```
+
+
+## Author
+Arulvel V(CS24I1027)– IIITDM Kancheepuram
