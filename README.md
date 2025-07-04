@@ -24,5 +24,6 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
 
 ## Progess
     - Added the structure of all the webpages using only html
-    - designed them with css
-    - Only front is developed, since im not familiar with backend at this point
+    - designed them with css (format/colours/animations/videos/photos)
+    - Only front is developed, since im not familiar with backend at this 
+    - Organised college logo and video in a seperate folder named Assets
