@@ -20,3 +20,9 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
  `admin.html` - Static table of bookings and check-in status 
 
  `style.css` - Styling for all pages (minimal) 
+
+
+## Progess
+    - Added the structure of all the webpages using only html
+    - designed them with css
+    - Only front is developed, since im not familiar with backend at this point
