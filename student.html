@@ -1,0 +1,66 @@
+<!--student.html-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Arulvel" />
+    <meta name="description" content="Student Booking - Tinker Lab Portal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Booking</title>
+    <link rel="icon" href="logo.png" type="image/png"/>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img src="logo.png" alt="IIITDM Logo" title="logo" width="60">
+        <h1>Student Booking Portal</h1>
+        <p>Book your slot at the Tinker Lab Bellow.</p>
+    </header>
+
+    <hr>
+
+    <!--Main(Booking form)-->
+    <main>
+        <section>
+            <h2>Slot Booking Form</h2>
+            <form action="#" method="get">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </p>
+                <p>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" required>
+                </p>
+                <p>
+                    <label for="slot">Time slow:</label>
+                    <select name="slot" id="slot" required>
+                        <option value="">Choose a 50 mins Slot</option>
+                        <option value="9-10">9:00 - 9:50am</option>
+                        <option value="10-11">10:00 - 10:50am</option>
+                        <option value="11-12">11:00 - 11:50am</option>
+                        <option value="12-1">12:00 - 12:50pm</option>
+                        <option value="1-2">1:00 - 1:50pm</option>
+                        <option value="2-3">2:00 - 2:50pm</option>
+                        <option value="3-4">3:00 - 3:50pm</option>
+                        <option value="4-5">4:00 - 4:50pm</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">Book Slot</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Arulvel V | IIITDM Tinker Lab Access System</p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>
