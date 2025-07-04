@@ -43,7 +43,7 @@ button {
     margin: 10px;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #e94e77;
+    background-color: #4e4ee9;
     color: white;
     border: none;
     border-radius: 30px;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #862a44;
+    background-color: #1f1c6d;
 }
 
 footer {    
@@ -111,4 +111,44 @@ tr:hover {
 
 .decline:hover {
     background-color: #7b0e19;
+}
+
+
+
+.bookingform h2 {
+  color: #004aad;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.bookingform form {
+  display:flex ;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bookingform label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.bookingform input,
+.bookingform select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1.65px solid #4b4747;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.bookingform input:hover,
+.bookingform select:hover {
+  border-color: #004aad;
+  outline: none;
+}
+
+.bookingform p {
+  margin: 0;
 }
