@@ -15,14 +15,18 @@ header {
     width: 100%;
 }
 
+
 header img {
     width: 60px;
     vertical-align: middle;
+    filter: brightness(0.7)
 }
 
-header h1 {
-    margin: 10px 0 5px;
+header h1, header p {
+  text-shadow: 0 0 12px #dbf19c;
+
 }
+
 
 main {
   padding: 30px;
@@ -71,13 +75,15 @@ a {
     color: white;
     text-decoration: underline;
 }
-
+a:hover {
+  color: #8787ff;
+}
 table {
     margin: 30px auto;
     border-collapse: collapse;
     width: 100%;
     max-width: 900px;
-    background-color: #fff;
+    background-color: #eef4ff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     overflow: hidden;
@@ -85,14 +91,14 @@ table {
 
 th, td {
   padding: 14px 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   text-align: center;
   font-size: 1rem;
 }
 
 th {
   background-color: #163766;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
 }
 
