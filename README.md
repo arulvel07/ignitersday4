@@ -28,6 +28,9 @@ This is a pure **HTML + CSS** project focused on UI and concept demonstration.
     - designed them with css (format/colours/animations/videos/photos)
     - Only front is developed, since im not familiar with backend at this 
     - Organised college logo and video in a seperate folder named '/assets'
+    
+    
+"Frontend prototype only, built to simulate the Tinker Lab access system UI. Backend is not implemented as this project focuses purely on conceptual UI design."
 
 
 ## Folder Structure
